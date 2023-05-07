@@ -1,28 +1,18 @@
 {
-    "name": "basic-mern-app",
-    "version": "1.0.0",
-    "description": "A Basic MERN Stack App just for practice",
-    "engines": {
-        "node": "16.17.1"
-    },
-    "main": "app.js",
-    "scripts": {
-        "start": "node app.js",
-        "heroku-postbuild": "cd client && yarn install && yarn build",
-        "client": "cd client && yarn start",
-        "server": "nodemon app.js"
-    },
-    "author": "Hemakshi Sachdev",
-    "license": "ISC",
-    "dependencies": {
-        "bcryptjs": "^2.4.3",
-        "body-parser": "^1.18.2",
-        "dotenv": "^6.1.0",
-        "express": "^4.16.3",
-        "jsonwebtoken": "^9.0.0",
-        "mongoose": "^5.7.5"
-    },
-    "devDependencies": {
-        "nodemon": "^1.17.3"
-    }
+  "name": "mern-stack-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.29"
+  }
 }
